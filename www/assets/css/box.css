@@ -1,0 +1,73 @@
+/* packages */
+*{
+    text-decoration: none !important;
+    
+}
+
+.gallery{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.goback{
+    list-style-type: none;
+    text-align: center;
+    text-decoration: none;
+}
+
+.a-icon {
+    font-size: 2rem;
+    /* text-decoration: none !important; */
+    border-bottom: none;
+}
+
+/* STICKY NAVBAR */
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    text-align: center;
+
+    position: sticky;
+    bottom: 0;
+    /* left: 0; */
+    /* width: 100%; */
+    background-color: rgb(43 47 50 / 85%);
+}
+
+.options{
+    cursor: pointer;
+    /* text-decoration: none !important; */
+   
+}
+
+.act, .act:hover{
+    /* font-size: 30px; */
+    color: rgb(38, 206, 117) !important;
+    text-decoration: underline !important;
+    
+}
+
+.options:hover{
+    color: grey
+}
+
+a{
+    border-bottom: none;
+
+}
+
+
